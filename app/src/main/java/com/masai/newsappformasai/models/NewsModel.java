@@ -1,9 +1,10 @@
 package com.masai.newsappformasai.models;
 
+import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
 
-public class NewsModel{
+public class NewsModel implements Serializable {
 
 	@SerializedName("totalResults")
 	private int totalResults;

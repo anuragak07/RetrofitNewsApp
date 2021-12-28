@@ -2,7 +2,9 @@ package com.masai.newsappformasai.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ArticlesItem{
+import java.io.Serializable;
+
+public class ArticlesItem implements Serializable {
 
 	@SerializedName("publishedAt")
 	private String publishedAt;
